@@ -1,0 +1,57 @@
+/* Hallmark tokens · theme: Newsprint (warm paper, ink-blue, Newsreader + Inter) */
+:root {
+  --color-paper: oklch(96.5% 0.012 85);
+  --color-ink: oklch(21% 0.01 70);
+  --color-ink-2: oklch(44% 0.012 70);
+  --color-rule: oklch(85% 0.014 80);
+  --color-accent: oklch(42% 0.11 255);
+  --color-focus: oklch(42% 0.11 255);
+
+  --font-display: 'Newsreader', Georgia, serif;
+  --font-body: 'Newsreader', Georgia, serif;
+  --font-meta: 'Inter', system-ui, sans-serif;
+
+  --text-xs: 0.8rem;
+  --text-sm: 0.9rem;
+  --text-md: 1.15rem;
+  --text-lg: 1.35rem;
+  --text-2xl: 1.6rem;
+  --text-display: clamp(2.6rem, 7vw + 0.5rem, 5rem);
+
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+  --measure: 64ch;
+
+  --radius-sm: 4px;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 140ms;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --color-paper: oklch(19% 0.01 70);
+    --color-ink: oklch(92% 0.012 85);
+    --color-ink-2: oklch(72% 0.012 80);
+    --color-rule: oklch(32% 0.012 75);
+    --color-accent: oklch(76% 0.09 255);
+    --color-focus: oklch(76% 0.09 255);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --color-paper: oklch(19% 0.01 70);
+  --color-ink: oklch(92% 0.012 85);
+  --color-ink-2: oklch(72% 0.012 80);
+  --color-rule: oklch(32% 0.012 75);
+  --color-accent: oklch(76% 0.09 255);
+  --color-focus: oklch(76% 0.09 255);
+  color-scheme: dark;
+}

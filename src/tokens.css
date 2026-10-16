@@ -1,0 +1,63 @@
+/* Hallmark tokens · theme: Terminal (phosphor on charcoal, JetBrains Mono + Geist) */
+:root {
+  --color-paper: oklch(96.5% 0.008 140);
+  --color-paper-2: oklch(93% 0.01 140);
+  --color-ink: oklch(22% 0.02 160);
+  --color-ink-2: oklch(45% 0.02 160);
+  --color-rule: oklch(86% 0.012 140);
+  --color-accent: oklch(50% 0.13 150);
+  --color-on-accent: oklch(97% 0.01 140);
+  --color-focus: oklch(50% 0.13 150);
+
+  --font-display: 'JetBrains Mono', ui-monospace, monospace;
+  --font-body: 'Geist', system-ui, -apple-system, sans-serif;
+
+  --text-xs: 0.8rem;
+  --text-sm: 0.9rem;
+  --text-md: 1.02rem;
+  --text-lg: 1.2rem;
+  --text-2xl: clamp(1.5rem, 2vw + 0.8rem, 2rem);
+  --text-headline: clamp(1.6rem, 2.6vw + 0.8rem, 2.6rem);
+  --text-figure: clamp(4.5rem, 14vw, 11rem);
+
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+  --space-3xl: 104px;
+  --page-gutter: 32px;
+
+  --radius-sm: 4px;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 140ms;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --color-paper: oklch(16% 0.012 160);
+    --color-paper-2: oklch(19.5% 0.014 160);
+    --color-ink: oklch(92% 0.02 150);
+    --color-ink-2: oklch(70% 0.02 150);
+    --color-rule: oklch(29% 0.015 160);
+    --color-accent: oklch(82% 0.17 150);
+    --color-on-accent: oklch(16% 0.012 160);
+    --color-focus: oklch(82% 0.17 150);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --color-paper: oklch(16% 0.012 160);
+  --color-paper-2: oklch(19.5% 0.014 160);
+  --color-ink: oklch(92% 0.02 150);
+  --color-ink-2: oklch(70% 0.02 150);
+  --color-rule: oklch(29% 0.015 160);
+  --color-accent: oklch(82% 0.17 150);
+  --color-on-accent: oklch(16% 0.012 160);
+  --color-focus: oklch(82% 0.17 150);
+  color-scheme: dark;
+}
