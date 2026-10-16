@@ -38,7 +38,7 @@ p { margin: 0; }
 }
 .btn.solid { background: var(--color-ink); color: var(--color-on-ink); }
 .btn.solid:hover { background: var(--color-accent); border-color: var(--color-accent); }
-.btn.outline { background: transparent; color: var(--color-ink); border-color: var(--color-rule); }
+.btn.outline { background: var(--color-paper); color: var(--color-ink); border-color: var(--color-rule); }
 .btn.outline:hover { border-color: var(--color-ink); }
 .btn:active { transform: translateY(1px); }
 .cta { display: flex; flex-wrap: wrap; gap: var(--space-sm); margin-top: var(--space-xl); }
