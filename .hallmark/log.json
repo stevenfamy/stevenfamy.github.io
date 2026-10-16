@@ -1,6 +1,0 @@
-[
-  { "date": "2026-10-16", "macrostructure": "Long Document", "theme": "Newsprint", "enrichment": "none", "nav": "N6", "footer": "Ft6", "brief": "Steven Famy portfolio · classic design (classic.html)" },
-  { "date": "2026-10-16", "macrostructure": "Map / Diagram", "theme": "Cobalt", "enrichment": "inline SVG system map", "nav": "N3", "footer": "Ft2", "brief": "Steven Famy portfolio · blueprint design (blueprint.html)" },
-  { "date": "2026-10-16", "macrostructure": "Stat-Led", "theme": "Terminal", "enrichment": "none", "nav": "N8", "footer": "Ft4", "brief": "Steven Famy portfolio · ops console design (index.html)" },
-  { "date": "2026-10-16", "macrostructure": "Split Studio", "theme": "Coral", "enrichment": "none", "nav": "N9", "footer": "Ft5", "brief": "Steven Famy portfolio · sleek design (sleek.html)" }
-]
