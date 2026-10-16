@@ -1,4 +1,4 @@
-/* Hallmark · genre: modern-minimal · macrostructure: Split Studio · theme: Coral · enrichment: none · nav: N9 · footer: Ft5
+/* Hallmark · genre: modern-minimal · macrostructure: Split Studio · theme: Coral · enrichment: cursor-reactive dot grid · nav: N9 · footer: Ft5
  * tone: sleek, quiet-technical · anchor hue: coral 35 · pre-emit critique: P4 H4 E4 S5 R5 V4 */
 @import './tokens.css';
 
@@ -15,6 +15,8 @@ p { margin: 0; }
 :focus-visible { outline: 2px solid var(--color-focus); outline-offset: 3px; border-radius: 4px; }
 .muted { color: var(--color-ink-2); }
 .wrap { max-width: 1160px; margin: 0 auto; padding: 0 var(--page-gutter); }
+
+.dot-grid { position: fixed; inset: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
 
 /* N9 · edge-aligned nav: wordmark left, one action right, nothing between */
 .nav { display: flex; justify-content: space-between; align-items: center; padding-top: var(--space-lg); padding-bottom: var(--space-lg); }

@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { ThemeToggle, uptime } from '../App'
+import { DotGrid } from './DotGrid'
 import { about, certifications, education, experience, profile, projects, skills } from '../content'
 
 // Hero proof column: the scope Steven owns, top of the stack to the bottom.
@@ -33,6 +34,7 @@ export default function App() {
   const now = experience[0]
   return (
     <>
+      <DotGrid />
       <header className="nav wrap">
         <a href="#top" className="wordmark">Steven Famy</a>
         <div className="nav-end">
