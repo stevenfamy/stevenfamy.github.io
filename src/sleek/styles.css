@@ -27,7 +27,7 @@ p { margin: 0; }
   background: none; border: 1px solid transparent; color: var(--color-ink-2); font-size: var(--text-md);
   transition: border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
 }
-.icon-btn:hover { border-color: var(--color-rule); color: var(--color-ink); }
+.icon-btn:hover { background: var(--color-paper); border-color: var(--color-rule); color: var(--color-ink); }
 
 /* buttons: black-filled + outlined pill pair */
 .btn {
