@@ -133,7 +133,7 @@ export default function App() {
           <a className="btn outline" href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
         <p className="foot-line">
-          © {new Date().getFullYear()} {profile.name} · Other designs: <a href="./ops.html">Ops</a> · <a href="./blueprint.html">Blueprint</a> · <a href="./classic.html">Classic</a>
+          © {new Date().getFullYear()} {profile.name}
         </p>
       </footer>
     </>
